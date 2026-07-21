@@ -46,15 +46,17 @@ st.markdown("""
 }
 
 .success-box{
-    background:#dcfce7;
-    padding:18px;
-    border-radius:10px;
+    background:linear-gradient(135deg,#166534,#22C55E);
+    color:white;
+    padding:20px;
+    border-radius:15px;
 }
 
 .danger-box{
-    background:#fee2e2;
-    padding:18px;
-    border-radius:10px;
+    background:linear-gradient(135deg,#991B1B,#EF4444);
+    color:white;
+    padding:20px;
+    border-radius:15px;
 }
 
 .footer{
