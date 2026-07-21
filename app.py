@@ -21,19 +21,21 @@ st.markdown("""
     padding-bottom:2rem;
 }
             
-.stButton>button{
+.stButton > button{
     width:100%;
-    background:#2563eb;
-    color:white;
+    background-color:#2563EB !important;
+    color:white !important;
+    border:none !important;
     border-radius:12px;
     height:55px;
     font-size:18px;
-    font-weight:bold;
-    border:none;
+    font-weight:600;
+    transition:0.3s;
 }
 
-.stButton>button:hover{
-    background:#1d4ed8;
+.stButton > button:hover{
+    background-color:#1D4ED8 !important;
+    color:white !important;
 }
 
 .metric-card{
